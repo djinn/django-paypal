@@ -21,7 +21,7 @@ Using PayPal Payments Standard IPN:
 
 1. Download the code from GitHub:
 
-        git clone git://github.com/johnboxall/django-paypal.git paypal
+        pip install git+git://github.com/djinn/django-paypal.git#egg=django-paypal
 
 1. Edit `settings.py` and add  `paypal.standard.ipn` to your `INSTALLED_APPS` 
    and `PAYPAL_RECEIVER_EMAIL`:
